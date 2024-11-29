@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Day of the Week Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day_of_the_week"
+            android:textColor="#1A1A1A"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDayOfWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Time Picker Button -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/time"
+            android:textColor="#1A1A1A" />
+
+        <Button
+            android:id="@+id/buttonPickTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_time"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Capacity Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextCapacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/capacity"
+                android:inputType="number"
+                android:autofillHints="capacity"
+                android:textColor="#1A1A1A"
+                android:textColorHint="#707070"
+                android:backgroundTint="#FFFFFF"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Duration Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/duration_minutes"
+                android:inputType="number"
+                android:autofillHints="duration"
+                android:textColor="#1A1A1A"
+                android:textColorHint="#707070"
+                android:backgroundTint="#FFFFFF"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Price Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/price"
+                android:inputType="numberDecimal"
+                android:autofillHints="price"
+                android:textColor="#1A1A1A"
+                android:textColorHint="#707070"
+                android:backgroundTint="#FFFFFF"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Type of Class Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_class"
+            android:textColor="#1A1A1A"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Description Field -->
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:autofillHints="description"
+                android:textColor="#1A1A1A"
+                android:textColorHint="#707070"
+                android:backgroundTint="#FFFFFF"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSaveCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_course"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50" />
+
+    </LinearLayout>
+</ScrollView>

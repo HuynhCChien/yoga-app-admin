@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Date Picker Button -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/class_date"
+            android:textColor="#1A1A1A" />
+
+        <Button
+            android:id="@+id/buttonPickDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_class_date"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Teacher Name Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextTeacherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/teacher_name"
+                android:inputType="text"
+                android:autofillHints="teacher_name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Additional Comments Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/additional_comments"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:autofillHints="comments" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSaveClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_class"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50" />
+    </LinearLayout>
+</ScrollView>

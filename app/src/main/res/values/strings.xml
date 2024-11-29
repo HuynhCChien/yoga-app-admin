@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Yoga_Adminv3</string>
+    <string name="day_of_the_week">Day of the Week</string>
+    <string name="type_of_class">Type of Class</string>
+    <string name="time">Time</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="capacity">Capacity</string>
+    <string name="duration_minutes">Duration (minutes)</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="save_course">Save Course</string>
+    <string name="yoga_courses">Yoga Courses</string>
+    <string name="no_courses_available">No courses available</string>
+    <string name="add_new_course">Add New Course</string>
+    <string name="flow_yoga_monday_10_00_am">Flow Yoga - Monday, 10:00 AM</string>
+    <string name="flow_yoga">Flow Yoga</string>
+    <string name="capacity_20">Capacity: 20</string>
+    <string name="duration_60_mins">Duration: 60 mins</string>
+    <string name="price_10">Price: $10</string>
+    <string name="description_relaxing_yoga_session_focusing_on_body_flow_and_breathing">Description: Relaxing yoga session focusing on body flow and breathing...</string>
+    <string name="view_more">View More</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="delete_course" />
+    <string name="time_10_00_am">10:00 AM</string>
+    <string name="fill_required_fields">Please fill all required fields</string>
+    <string name="course_updated_successfully">Course updated successfully!</string>
+    <string name="failed_to_update_course">Failed to update course</string>
+    <string name="update_course">Update Course</string>
+    <string name="class_instances">Class Instances</string>
+    <string name="no_class_instances_available">No class instances available</string>
+    <string name="add_new_class">Add New Class</string>
+    <string name="save_class">Save Class</string>
+    <string name="pick_class_time">Pick Class Time</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="additional_comments">Optional Comment</string>
+    <string name="class_date">Date</string>
+    <string name="pick_class_date">Pick a date</string>
+    <string name="class_added_successfully">New class added successfully</string>
+    <string name="failed_to_add_class">Failed to add class</string>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="class_types">
+        <item>Flow Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+    </string-array>
+
+</resources>
